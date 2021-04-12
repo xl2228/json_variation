@@ -1,0 +1,66 @@
+html,body{
+  height:100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  background-color: #CAD0F6;
+  font-family: 'Crimson Text', serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1{
+  padding: 4vmin;
+  width: 80%;
+  /* margin: 3vmin 13vmin 3vmin 13vmin; */
+  color:#5B93C2;
+  text-align: center;
+  font-size: 8vmin;
+  border: 4px solid white;
+  background-color: #F5E18C;
+}
+
+h2{
+  color:#5B93C2;
+}
+
+#inputSign,#executeButton{
+  margin-top: 2vmin;
+  font-size: 3vmin;
+}
+#outputCard{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content:center;
+}
+.cardStyle{
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+  margin: 3.5vmin;
+  padding: 5vmin;
+  width:40vmin;
+  box-shadow: 1.2px 1.2px 4px grey;
+  border: 1px solid white;
+}
+.signImage {
+  width: 30vmin;
+  align-self: center;
+}
+.cardTitle{
+  align-self: center;
+  margin-top: 2vmin;
+  font-size: 4vmin;
+  color: white;
+  text-shadow: 1px 1px 2px #4D2A17;
+}
+
+.summary, .number, .color{
+  margin-top: 2vmin;
+  text-align: justify;
+  color: white;
+  text-shadow: 1px 1px 2px #4D2A17;
+  font-size: 2.3vmin;
+
+}
